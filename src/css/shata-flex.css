@@ -1,0 +1,10 @@
+.shata-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.shata-flex_item {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}

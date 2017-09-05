@@ -62,3 +62,9 @@ a {
   color: rgba(0, 0, 0, 0.6);
   background-color: #DEDEDE;
 }
+.shata-flex {
+  display: flex;
+}
+.shata-flex_item {
+  flex: 1;
+}

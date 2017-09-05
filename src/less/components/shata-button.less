@@ -1,6 +1,6 @@
 @import '../variable/shata-btn.less';
-.shata-btn{
-  position:relative;
+.shata-btn {
+  position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -9,13 +9,13 @@
   box-sizing: border-box;
   overflow: hidden;
   text-decoration: none;
-  text-align:center;
+  text-align: center;
   font-size: @shataBtnFontSize;
   color: @shataBtnFontColor;
   line-height: unit(@shataBtnHeight/@shataBtnFontSize);
   border-radius: @shataBtnBorderRadius;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  &:after{
+  &:after {
     content: ' ';
     width: 200%;
     height: 200%;
@@ -31,17 +31,17 @@
 }
 
 .shata-btn_inline {
-    display: inline-block;
+  display: inline-block;
 }
 
 .shata-btn_default {
+  color: @shataBtnDefaultFontColor;
+  background-color: @shataBtnDefaultBg;
+  &:not(.weui-btn_disabled):visited {
     color: @shataBtnDefaultFontColor;
-    background-color: @shataBtnDefaultBg;
-    &:not(.weui-btn_disabled):visited {
-        color: @shataBtnDefaultFontColor;
-    }
-    &:not(.weui-btn_disabled):active {
-        color: @shataBtnDefaultActiveFontColor;
-        background-color: @shataBtnDefaultActiveBg;
-    }
+  }
+  &:not(.weui-btn_disabled):active {
+    color: @shataBtnDefaultActiveFontColor;
+    background-color: @shataBtnDefaultActiveBg;
+  }
 }
