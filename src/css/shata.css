@@ -32,7 +32,7 @@ a {
   font-size: 16px;
   color: #999;
   line-height: 2.5;
-  border-radius: 6px;
+  border-radius: 12px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .shata-btn:after {
@@ -46,8 +46,19 @@ a {
   transform: scale(0.5);
   transform-origin: 0 0;
   box-sizing: border-box;
-  border-radius: 12px;
+  border-radius: 24px;
 }
 .shata-btn_inline {
   display: inline-block;
+}
+.shata-btn_default {
+  color: #000000;
+  background-color: #F8F8F8;
+}
+.shata-btn_default:not(.weui-btn_disabled):visited {
+  color: #000000;
+}
+.shata-btn_default:not(.weui-btn_disabled):active {
+  color: rgba(0, 0, 0, 0.6);
+  background-color: #DEDEDE;
 }

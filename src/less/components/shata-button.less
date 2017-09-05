@@ -33,3 +33,15 @@
 .shata-btn_inline {
     display: inline-block;
 }
+
+.shata-btn_default {
+    color: @shataBtnDefaultFontColor;
+    background-color: @shataBtnDefaultBg;
+    &:not(.weui-btn_disabled):visited {
+        color: @shataBtnDefaultFontColor;
+    }
+    &:not(.weui-btn_disabled):active {
+        color: @shataBtnDefaultActiveFontColor;
+        background-color: @shataBtnDefaultActiveBg;
+    }
+}
